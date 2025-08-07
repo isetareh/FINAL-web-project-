@@ -3,9 +3,6 @@
 این پروژه یک فروشگاه آنلاین موبایل است که شامل backend (Node.js + Express + MongoDB) و frontend (React) می‌باشد.
 ساختار پروژه
 
-web-project-backend/ # Backend (Node.js + Express + MongoDB)
-web-project-frontend/ # Frontend (React)
-
 ویژگی‌های پروژه
 
 Backend:
