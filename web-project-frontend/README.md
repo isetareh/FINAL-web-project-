@@ -43,28 +43,6 @@
 - **Bootstrap 5** - فریم‌ورک CSS
 - **Font Awesome** - آیکون‌های اضافی
 
-## نصب و راه‌اندازی
-
-### پیش‌نیازها
-- Node.js (نسخه 14 یا بالاتر)
-- npm یا yarn
-
-### مراحل نصب
-
-1. **نصب وابستگی‌ها:**
-   ```bash
-   npm install
-   ```
-
-2. **راه‌اندازی سرور توسعه:**
-   ```bash
-   npm start
-   ```
-
-3. **ساخت نسخه تولید:**
-   ```bash
-   npm run build
-   ```
 
 ## ساختار پروژه
 
@@ -89,7 +67,7 @@ src/
 └── index.css          # استایل‌های اصلی
 ```
 
-## API Endpoints
+
 
 ### احراز هویت
 - `POST /api/auth/register` - ثبت نام
@@ -111,13 +89,6 @@ src/
 - `DELETE /api/cart/:productId` - حذف از سبد خرید
 - `DELETE /api/cart` - پاک کردن سبد خرید
 
-## متغیرهای محیطی
-
-فایل `.env` را در ریشه پروژه ایجاد کنید:
-
-```env
-REACT_APP_API_URL=http://localhost:5000
-```
 
 ## ویژگی‌های طراحی
 
