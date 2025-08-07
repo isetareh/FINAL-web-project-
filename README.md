@@ -23,4 +23,34 @@ Lucide React: آیکون‌ها
 Bootstrap 5: استایل‌دهی
 Font Awesome: آیکون‌های اضافی
 
-To run the code and start the website, double-click "start-website.bat". Make sure you're connected to the database, otherwise you'll get an error.
+how to run this project : 
+
+
+
+برای اجرای این پروژه فول‌استک، مراحل زیر را دنبال کنید:
+
+### 1. اجرای بخش Backend
+
+ابتدا وارد پوشه‌ی `backend` شوید و دستورات زیر را اجرا کنید:
+
+```bash
+npm install
+npm start
+```
+
+> توجه: مطمئن شوید که دیتابیس(MongoDB) روی سیستم شما فعال و به درستی کانفیگ شده باشد.
+
+### 2. اجرای بخش Frontend
+
+سپس وارد پوشه‌ی `frontend` شوید و دستورات زیر را اجرا نمایید:
+
+```bash
+npm install
+npm start
+```
+
+پس از اجرای هر دو بخش، پروژه روی مرورگر قابل مشاهده خواهد بود.
+
+---
+
+(زین پس با دابل کلیک(باز کردن) فایل start-website.bat میتونید به وبسایت دسترسی داشته باشید.  :)
